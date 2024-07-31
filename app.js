@@ -20,14 +20,14 @@ const storage = multer.diskStorage({
 const upload = multer({ storage: storage });
 
 const connection = mysql.createConnection({
-  //host: 'localhost',
-  //user: 'root',
-  //password: '',
-  //database: ' freedb_c237_calendarapp'
-  host:'sql.freedb.tech',
-  user:'freedb_shihan23016666',
-  password:'rG@y4fx29rFsf#X',
-  database:'freedb_c237_calendarapp'
+  host: 'localhost',
+  user: 'root',
+  password: '',
+  database: ' freedb_c237_calendarapp'
+  //host:'sql.freedb.tech',
+  //user:'freedb_shihan23016666',
+  //password:'rG@y4fx29rFsf#X',
+  //database:'freedb_c237_calendarapp'
 });
 
 connection.connect((error) => {
