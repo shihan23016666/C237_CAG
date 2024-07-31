@@ -20,8 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Database: ` freedb_c237_calendarapp`
 --
-CREATE DATABASE IF NOT EXISTS `freedb_c237_calendarapp` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `freedb_c237_calendarapp`;
+
+USE 'freedb_c237_calendarapp';
 
 -- --------------------------------------------------------
 

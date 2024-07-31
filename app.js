@@ -24,11 +24,11 @@ const connection = mysql.createConnection({
   //user: 'root',
   //password: '',
   //database: ' freedb_c237_calendarapp'
-  host:'sql.freedb.tech',
-  user:'freedb_shihan23016666',
-  password:'rG@y4fx29rFsf#X',
-  database:'freedb_c237_calendarapp'
-});
+    host: 'sql.freedb.tech',
+    user: 'freedb_shihan23016666',
+    password: 'rG@y4fx29rFsf#X',
+    database: 'freedb_c237_calendarapp'
+  });
 
 connection.connect((error) => {
   if (error) {
